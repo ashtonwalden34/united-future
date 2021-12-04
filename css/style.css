@@ -79,3 +79,38 @@ div.jumbotron {
     display: inline-block;
     text-align: right;
 }
+
+/* Contact Page */
+#contact-jumbo {
+    margin-top: 0;
+}
+
+#contact-form {
+    background-color: lightblue;
+    margin-top: 2px;
+}
+
+.form-inline {
+    margin-top: none;
+}
+
+.form-group {
+    margin-right: 3vw;
+    margin-left: auto;
+}
+
+form.form-inline {
+    text-align: center;
+}
+
+#contact-header {
+    text-decoration: underline;
+}
+
+#contact-info {
+    text-align: center;
+}
+
+#contact-list {
+    list-style: none;
+}
