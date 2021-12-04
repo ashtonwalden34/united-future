@@ -8,8 +8,13 @@
     <link href="css/style.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <link href="css/jquery-ui.css" rel="stylesheet">
+
 
     <title>Programs</title>
 </head>
@@ -30,7 +35,7 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                   <ul class="nav navbar-nav">
                     <li><a href="index.html">Home</a></li>
-                    <li><a>Mission Statement</a></li>
+                    <li><a href="mission.html">Mission Statement</a></li>
                     <li class="active"><a href="programs.html">Programs</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                     <li><a href="donate.html">Donations</a></li>
@@ -42,6 +47,48 @@
                 </div>
             </div>
         </nav>
+
+        <body>
+        
+        <div id="tabs">
+          <ul>
+            <li><a href="#tabs-1">Fitness Tracker</a></li>
+            <li><a href="#tabs-2">Progressive Budget</a></li>
+            <li><a href="#tabs-3">Weather Dashboard</a></li>
+          </ul>
+                <div class="tab" id="tabs-1">
+                    <img id="tab-image" src="img/globe.jpg" alt="some image"/> 
+                    <p id="tab-description">Some description of program.</p>
+                    <ul id="tab-links">
+                        <li id="tab-link"><a href="#">Link 1</a></li>
+                        <li id="tab-link"><a href="#">Link 2</a></li>
+                    </ul>
+                </div>
+                    
+                <div class="tab" id="tabs-2">
+                    <img id="tab-image" src="img/migration.jpg" alt="some image"/>
+                    <p id="tab-description">Some other description of program.</p>
+                    <ul id="tab-links">
+                        <li id="tab-link"><a href="#">Link 1</a></li>
+                        <li id="tab-link"><a href="#">Link 2</a></li>
+                    </ul>
+                </div>
+                    
+                <div class="tab" id="tabs-3">
+                    <img id="tab-image" src="img/abstract.jpg" alt="some image"/> 
+                    <p id="tab-description">Some other other description of program.</p>
+                    <ul id="tab-links">
+                        <li id="tab-link"><a href="#">Link 1</a></li>
+                        <li id="tab-link"><a href="#">Link 2</a></li>
+                    </ul>
+                </div>
+            </div>
+                
+            <script>
+                $( "#tabs" ).tabs();
+            </script>
+                
+            </body>
 
     </div>
 </body>

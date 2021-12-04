@@ -44,3 +44,8 @@ div.jumbotron {
     background-color: lightblue;
     color: #337AB7;
 }
+
+/* Mission Page */
+#mission-header {
+    text-decoration: underline;
+}
