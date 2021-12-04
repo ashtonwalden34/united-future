@@ -5,3 +5,42 @@ nav {
 button {
     background-color: red;
 }
+
+body {
+    background-image: url(../img/bg.png);
+    width: 100vw;
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    background-attachment: fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* Home Page */
+#myCarousel {
+    margin-top: 0vh;
+}
+
+.carousel-inner {
+    height: 60vh;
+}
+
+#car-img {
+    height: 60vh;
+}
+
+div.jumbotron {
+    padding: 1vw;
+    height: fit-content;
+    margin-top: 10vh;
+    margin-bottom: none;
+    text-align: center;
+    background-color: lightblue;
+    color: #337AB7;
+}
