@@ -46,6 +46,32 @@ div.jumbotron {
 }
 
 /* Mission Page */
+#mission-jumbo {
+    margin-top: 12vh;
+}
+
 #mission-header {
     text-decoration: underline;
+}
+
+/* Programs Page */
+#tabs {
+    margin-top: 12vh;
+}
+
+/* Donation Page */
+#donation-list {
+    list-style: none;
+    text-align: center;
+}
+
+#other-donation {
+    width: 10vw;
+    margin: auto;
+    text-align: center;
+}
+
+#other-label {
+    display: inline-block;
+    text-align: right;
 }
