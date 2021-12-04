@@ -54,6 +54,10 @@ div.jumbotron {
     text-decoration: underline;
 }
 
+#mission-list {
+    list-style: inside;
+}
+
 /* Programs Page */
 #tabs {
     margin-top: 12vh;
